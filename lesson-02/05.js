@@ -4,5 +4,5 @@ let passport = {
 };
 clone = {};
 Object.assign(clone, passport, {name: 'Ivan'})
-console.log(passport);
-console.log(clone);
+console.log(passport.name);
+console.log(clone.name);
