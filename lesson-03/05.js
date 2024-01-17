@@ -1,4 +1,3 @@
-Дан массив users2
 
 const users2 = [
     {
@@ -20,19 +19,11 @@ const users2 = [
         address: '789 Oak St'
     },
 ];
-    
-📋
-
-
-К массиву users2 добавь новый объект​
-
 const newObj = {
     id: 4,
     user: 'Ivan',
     surName: 'Susanin',
     address: 'Unknown'
-}
-📋
-
-
-Полученный результат выведи в консоль
+};
+users2.push(newObj);
+console.log(users2);
